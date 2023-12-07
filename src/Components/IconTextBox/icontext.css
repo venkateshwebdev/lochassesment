@@ -1,0 +1,36 @@
+.icontext {
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.icontext--right {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.icontext h3 {
+  color: var(--Background---F2F2F2, #f2f2f2);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  /* Heading 4 */
+  font-family: Inter;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 37.2px */
+}
+
+.icontext p {
+  color: var(--Background---F2F2F2, #f2f2f2);
+
+  /* Body */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+
+  opacity: 0.7;
+}
